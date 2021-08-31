@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>Фонд для людей</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+   
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    
+<!-- Меню навигации -->
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+          <div class="col-xl-9 offset-xl-1 d-flex justify-content-center py-2">
+          <ul class="navbar-nav pe-3">
+          <li class="nav-item"><a href="#name" class="nav-link text-light fs-6 px-3">О фонде</a></li>
+          <li class="nav-item"><a href="#people" class="nav-link text-light fs-6 px-3">Почетные люди фонда </a></li>
+          <li class="nav-item"><a href="#direction" class="nav-link text-light fs-6 px-3">Направления фонда </a></li>
+          <li class="nav-item"><a href="#media" class="nav-link text-light fs-6 px-3">Медиа партнеры</a></li>
+          <li class="nav-item"><a href="#sponsor" class="nav-link text-light fs-6 px-3">Генеральные спонсоры </a></li>
+          
+            </ul>
+          </div>
+            <div class="col-xl-2 py-2 d-flex justify-content-center">
+              <button type="button" class="btn btn-warning">Я хочу помочь</button>
+            </div>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Слайдер -->
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Заголовок</h1>
+            <p>Информация по фотографии</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  
+
+  <div class="container marketing">
+
+<!-- Название и задачи фонда -->
+<hr class="featurette-divider mb-5" id="name">
+
+    <div class="p-5  bg-light rounded-3 mt-5" >
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Фонд "Для людей"</h1>
+        <p class="col-md-8 fs-4">Фонд "Для людей" - частная филантропическая организация создана с целью оказания помощи людям с ограниченными возможностями, животным, природе, бизнесу, спортсменам.</p>
+      </div>
+    </div>
+
+    <!-- Почетные люди фонда -->
+    <hr class="featurette-divider mb-5 mt-5" id="people">
+
+<div class="row" >
+  <div class="d-flex justify-content-center mb-5 mt-5">
+    <h1>Почетные люди фонда</h1>
+  </div>
+</div>
+
+    
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Артенян Смбат Агванович</h2>
+        <p>Основатель фонда помощи детям. Основатель компании "Reatil grupp"</p>
+        <!-- <p><a class="btn btn-secondary" href="#">Подробнее</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Артенян Смбат Агванович</h2>
+        <p>Основатель фонда помощи детям. Основатель компании "Reatil grupp"</p>
+        <!-- <p><a class="btn btn-secondary" href="#">Подробнее</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Артенян Смбат Агванович</h2>
+        <p>Основатель фонда помощи детям. Основатель компании "Reatil grupp"</p>
+        <!-- <p><a class="btn btn-secondary" href="#">Подробнее</a></p> -->
+      </div><!-- /.col-lg-4 --> 
+    </div><!-- /.row -->
+
+<!-- Кнопка перехода на страницу почетные люди -->
+    <div class="row d-flex justify-content-center mt-3">
+      <div class="btn">
+        <a href="Почетные люди фонда\Honorable people.html">
+          <button class="btn btn-success" type="button">Подробнее</button>
+        </a>
+      </div>
+    </div>
+
+<!-- ------------------------------------------------------------------------------------ -->
+
+    <!-- Наши направления -->
+    <hr class="featurette-divider mb-5" id="direction">
+
+
+    <!-- Заголовок наши направления -->
+    <div class="row">
+      <div class="d-flex justify-content-center mb-5 mt-5">
+        <h1 id="direction">Наши направления</h1>
+      </div>
+    </div>
+
+<!-- Направления фонда -->
+        <!-- Люди с ограниченными возможностями-->
+        <div class="row align-items-md-stretch mt-3">
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Люди с ограниченными возможностями</h2>
+              <p>Короткое описание</p>
+              <button type="button" class="btn btn-success"> 
+                <a style="text-decoration: none; color: white;"  href="">Подробнее </a>  
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <video  width="100%" height="100%" controls autoplay>
+              <source src="20200425_133402.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+              <source src="20200425_133402.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+              <source src="20200425_133402.ogv" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+            </video>
+          </div>
+        </div>
+
+        <!-- Нуждающиеся семьи-->
+        <div class="row align-items-md-stretch mt-3">
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Нуждающиеся дети и семьи</h2>
+              <p>Короткое описание</p>
+              <button type="button" class="btn btn-success"> 
+                <a style="text-decoration: none; color: white;"  href="">Подробнее </a>  
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <video  width="100%" height="100%" controls autoplay>
+              <source src="20200425_133402.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+              <source src="20200425_133402.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+              <source src="20200425_133402.ogv" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+            </video>
+          </div>
+        </div>
+
+        <!-- Спортсмены-->
+        <div class="row align-items-md-stretch mt-3">
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Спортсмены</h2>
+              <p>Короткое описание</p>
+              <button type="button" class="btn btn-success"> 
+                <a style="text-decoration: none; color: white;"  href="">Подробнее </a>  
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <video  width="100%" height="100%" controls autoplay>
+              <source src="20200425_133402.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+              <source src="20200425_133402.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+              <source src="20200425_133402.ogv" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+            </video>
+          </div>
+        </div>
+
+        <!-- Бизнес-->
+        <div class="row align-items-md-stretch mt-3 p-2 bg-secondary">
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Бизнес</h2>
+              <p>Короткое описание</p>
+              <button type="button" class="btn btn-success"> 
+                <a style="text-decoration: none; color: white;"  href="">Подробнее </a>  
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <video  width="100%" height="100%" controls autoplay>
+              <source src="20200425_133402.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+              <source src="20200425_133402.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+              <source src="20200425_133402.ogv" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+            </video>
+          </div>
+        </div>
+
+        <!-- Природа и животные-->
+        <div class="row align-items-md-stretch mt-3 p-2 bg-secondary">
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Природа и животные</h2>
+              <p>Короткое описание</p>
+              <button type="button" class="btn btn-success"> 
+                <a style="text-decoration: none; color: white;"  href="">Подробнее </a>  
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <video  width="100%" height="100%" controls autoplay>
+              <source src="20200425_133402.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+              <source src="20200425_133402.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+              <source src="20200425_133402.ogv" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+            </video>
+          </div>
+        </div>
+<!-- ------------------------------------------------------------------------------------ -->
+
+<!-- Наши партнеры -->
+        <hr class="featurette-divider mb-5" id="media">
+
+
+        <!-- Заголовок Медиа партнеры -->
+        <div class="row">
+          <div class="d-flex justify-content-center mb-3 mt-5">
+            <h1 id="media">Медиа партнеры</h1>
+          </div>
+        </div>
+
+        <!-- Медиа партнеры -->
+        <div class="container px-4 py-5" id="featured-3">
+          <div class="row g-4  row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon bg-primary bg-gradient">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
+              </div>
+              <h2>Радио Жара ФМ</h2>
+              <p>Рассказ о партнерах</p>
+              <a href="#" class="btn btn-warning">
+                Подробнее
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon bg-primary bg-gradient">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+              </div>
+              <h2>Армянское радио</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-warning">
+                Подробнее
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon bg-primary bg-gradient">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+              </div>
+              <h2>Армянский лаваш</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-warning">
+                Подробнее
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Генеральные спонсоры -->
+        <hr class="featurette-divider mb-5" id="sponsor">
+
+        <!-- Заголовок Генеральные спонсоры -->
+        <div class="row">
+          <div class="d-flex justify-content-center mb-3 mt-5">
+            <h1 id="media">Генеральные спонсоры</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card me-5" style="width: 100%">
+          <img src="" class="card-img-top" alt="1">
+          <div class="card-body">
+            <h5 class="card-title">Название спонсора</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+            <!-- <a href="#" class="btn btn-primary">Перейти куда-нибудь</a> -->
+          </div>
+        </div>
+          </div>
+
+          <class class="col-md-4">
+            <div class="card col-md-4" style="width: 100%">
+          <img src="" class="card-img-top" alt="2">
+          <div class="card-body">
+            <h5 class="card-title">Название спонсора</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+            <!-- <a href="#" class="btn btn-primary">Перейти куда-нибудь</a> -->
+          </div>
+        </div>
+          </class>
+
+          <div class="col-md-4">
+            <div class="card me-5" style="width: 100%">
+          <img src="" class="card-img-top" alt="3">
+          <div class="card-body">
+            <h5 class="card-title">Название спонсора</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+            <!-- <a href="#" class="btn btn-primary">Перейти куда-нибудь</a> -->
+          </div>
+        </div>
+          </div>
+
+        </div>
+        
+        <!-- Кнопка перехода на страницу Генеральные спонсоры -->
+    <div class="row m-5">
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-success" type="button">Кнопка</button>
+
+      </div>
+    </div>
+
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+<!-- -------------------------------------------------------------------------------- -->
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
